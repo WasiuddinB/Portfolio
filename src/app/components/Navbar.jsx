@@ -6,7 +6,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
-const navbar = () => {
+const Navbar = () => {
 
   const [nav, setNav] = useState(false);
 
@@ -98,4 +98,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
